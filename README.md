@@ -70,13 +70,14 @@ other files
 ```
 ## Features
 
-- Sign In and Sign up pages
+- Sign In and Sign up features with firebase
 - Completely responsive
 - Navbar changes into hamburger menu when the screen is small
 - Different pages are made for different sections with react-router
 - On the programs page there are 4 different pop-up modals to learn more about the section
 - a custom page carousel is there on the testimonials page
-
+- razorpay integration for payment
+- added a rapid api, to perform a search functionality , to get different exercises
 ## Reporting Issues
 
 If you find a bug, have a suggestion, or want to discuss something related to the project, please open an issue on the GitHub repository. Be sure to include a clear description and, if applicable, steps to reproduce the issue.
