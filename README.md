@@ -29,12 +29,40 @@ A gym website made for the event 'DevWrap:From sketch to solution'
 let's talk about the architecture of this repo:
 
 - **Frontend**: We used React JS as the main tech stack for this project.
-
-Here is a list of all the technologies we use:
-
 - **Material UI**: Adding task Buttons
+- **Tailwind CSS**: For styling
+- **Firebase**: For Backend
+- **Lottie**: For PreLoader
+- **Dialogflow**: to create a chatbot for the project
+- **Razorpay**: To implement the payment for the form
+- **Rapid Api**: To implement the search exercises component
 
 
+## Run Locally
+
+To check the project you can run it locally 
+
+Clone the project
+
+```bash
+  git clone https://github.com/trishit78/NoobCoders_EC103A.git
+```
+
+
+**Create a Branch**: Create a new branch for your feature or bug fix.
+
+   ```bash
+   git checkout -b your-branch-name
+   ```
+**Test Locally**: Test locally to ensure they work as expected.
+
+```bash
+    npm i
+   ```
+
+```bash
+    npm start
+   ```
 #### Folder structure
 
 ```sh
@@ -75,6 +103,18 @@ other files
 - a custom page carousel is there on the testimonials page
 - razorpay integration for payment
 - added a rapid api, to perform a search functionality , to get different exercises
+
+## Contributing
+
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "improvement".
+Don't forget to star this project!! 
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/Feature1`)
+3. Commit your Changes (`git commit -m 'Add Feature 1'`)
+4. Push to the Branch (`git push origin feature/Feature1`)
+5. Open a Pull Request
 ## Reporting Issues
 
 If you find a bug, have a suggestion, or want to discuss something related to the project, please open an issue on the GitHub repository. Be sure to include a clear description and, if applicable, steps to reproduce the issue.
