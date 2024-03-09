@@ -1,0 +1,53 @@
+.horizontal-scroll-container {
+  width: 100%;
+  height: 400px; /* Fixed height of 200px */
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.scroll-item {
+  display: inline-block;
+  width: 30rem; /* Fixed width of 12rem */
+  height: 100%; /* Fill the container's height */
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin: 0 10px;
+  background-color: linear-gradient(
+    90deg,
+    rgba(197, 0, 240, 1) 0%,
+    rgba(1, 126, 240, 1) 17%,
+    rgba(129, 5, 238, 0.936186974789916) 41%,
+    rgba(103, 99, 232, 1) 73%,
+    rgba(94, 105, 235, 1) 77%,
+    rgba(78, 149, 233, 1) 93%
+  );
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.scroll-item p {
+  margin-bottom: 10px;
+  overflow: hidden; /* Ensure paragraph content does not overflow */
+  text-overflow: ellipsis; /* Show ellipsis for overflow text */
+  /* Prevent wrapping */
+  white-space: normal;
+}
+
+.scroll-item h3 {
+  margin: 0;
+  font-size: 18px;
+}
+.testimonial-photo {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin-left: 25%;
+  margin-bottom: 1rem;
+}
+
+.stroke-text {
+  color: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
